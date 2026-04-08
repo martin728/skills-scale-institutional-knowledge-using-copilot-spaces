@@ -14,6 +14,9 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- Security Officer approves from a security and compliance perspective
+- Release notes include any known issues and their mitigation
+- Stakeholder and support team communications are prepared and scheduled
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)

@@ -1,81 +1,149 @@
-# OctoAcme Personas
-
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
-
 ---
 
-## Developers
+## QA / Testing Lead
 
 ### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+QA/Testing Leads design and execute test strategies to validate software quality and ensure all acceptance criteria are met before release.
 
 ### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+- Develop and maintain test plans aligned with project scope
+- Create acceptance criteria checklists with developers and PMs
+- Execute manual testing and coordinate automated test coverage
+- Identify and document defects with clear reproduction steps
+- Coordinate with developers to prioritize and resolve quality issues
+- Validate fixes before release
 
 ### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+- Ensure features meet acceptance criteria and quality standards
+- Reduce production defects and improve user experience
+- Provide early feedback on testability and design
 
 ### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+- Sprint planning and kickoff meetings
+- Defect reports and test coverage summaries
+- Pre-release quality gates and sign-off
+
+### How They Interact
+- **With Developers:** Reviews acceptance criteria, provides test feedback, validates fixes
+- **With Product Manager:** Clarifies feature requirements and success metrics
+- **With Project Manager:** Reports quality status and risks in weekly syncs
 
 ---
 
-## Product Managers
+## Technical Lead / Architect
 
 ### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+Technical Leads provide technical direction, design guidance, and help teams navigate complex architectural decisions. They ensure technical decisions align with long-term strategy.
 
 ### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+- Review and approve technical design proposals
+- Help identify technical risks and propose mitigation strategies
+- Guide code quality standards and best practices
+- Mentor developers on architecture and design patterns
+- Participate in critical design and code reviews
+- Escalate technical blockers or dependency issues
 
 ### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+- Ensure scalable, maintainable technical solutions
+- Reduce technical debt and rework
+- Build team capability and knowledge
 
 ### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+- Design review meetings and architecture discussions
+- Code review comments and mentoring
+- Technical risk escalations
+
+### How They Interact
+- **With Developers:** Provides design guidance, reviews PRs, mentors on architecture
+- **With Project Manager:** Identifies and escalates technical risks
+- **With QA Lead:** Advises on testability and automation approaches
 
 ---
 
-## Project Managers
+## Stakeholder / Sponsor
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Stakeholders and Sponsors provide business context, approve budgets and scope, and make go/no-go decisions for projects. They represent business interests and customer needs.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Approve project charter and scope
+- Provide business context and success metrics
+- Make priority and trade-off decisions
+- Review status and provide feedback at key gates
+- Communicate project status to executive leadership
+- Approve significant scope or timeline changes
 
 ### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+- Ensure projects deliver business value
+- Align product with customer and market needs
+- Minimize business risk and regulatory exposure
 
 ### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+- Monthly or milestone-based status updates
+- Decision gates and approvals
+- Escalation for scope or timeline changes
+
+### How They Interact
+- **With Project Manager:** Reviews status, approves changes, provides business context
+- **With Product Manager:** Validates business case, prioritizes outcomes
+- **With Developers/QA:** Occasional demos and feedback sessions
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## Security & Compliance Officer
 
+### Role Summary
+Security and Compliance Officers ensure projects meet security standards, compliance requirements, and regulatory obligations. They reduce security and legal risk.
+
+### Responsibilities
+- Review security requirements during planning
+- Conduct security architecture reviews
+- Audit CI/CD for security scanning and controls
+- Review compliance requirements (GDPR, SOC 2, etc.)
+- Triage and prioritize security findings
+- Approve release from a security perspective
+
+### Goals
+- Minimize security vulnerabilities and data breaches
+- Ensure compliance with applicable regulations
+- Build security into the development process
+
+### Typical Communication
+- Security design reviews during planning
+- Vulnerability reports and remediation tracking
+- Security sign-off before production releases
+
+### How They Interact
+- **With Developers:** Reviews code for security vulnerabilities, provides secure coding guidance
+- **With Project Manager:** Escalates security risks and compliance blockers
+- **With QA Lead:** Coordinates security testing and penetration testing
+
+---
+
+## Communications & Release Manager
+
+### Role Summary
+Communications and Release Managers coordinate release activities, manage deployment timelines, and ensure stakeholders are informed of changes. They own the release process and communications.
+
+### Responsibilities
+- Plan and coordinate release schedules and windows
+- Manage deployment checklists and runbooks
+- Draft and distribute release notes
+- Coordinate with support, sales, and customer success on announcements
+- Manage rollback and incident communications
+- Track and communicate post-release metrics
+
+### Goals
+- Execute smooth, predictable releases
+- Keep all stakeholders informed and aligned
+- Minimize customer impact and support burden
+
+### Typical Communication
+- Release planning meetings and deployment windows
+- Release notes and customer announcements
+- Post-release status and incident updates
+
+### How They Interact
+- **With Project Manager:** Coordinates timeline, gathers release content
+- **With Developers/QA:** Ensures readiness before deployment
+- **With Stakeholders:** Communicates release status and customer impact
