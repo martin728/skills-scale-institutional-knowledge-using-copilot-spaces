@@ -38,3 +38,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+
+## QA Role & Responsibilities
+- QA Lead reviews acceptance criteria with Developers and Product Manager before work begins
+- QA executes test plans and provides early feedback on quality and testability
+- Defects are tracked and prioritized in collaboration with developers
+- QA sign-off is required before features move to Done or release
